@@ -1,0 +1,20 @@
+kraj = ["Polska","Norwegia","Rumunia","Kanada","Portugalia","Chiny"]
+print(kraj)
+print(kraj[3])
+kraj.sort()
+print(kraj)
+kraj.reverse()
+print(kraj)
+kraj.sort(reverse=True)
+print(kraj)
+kraj.append("Brazylia")
+print(kraj)
+kraj.insert(3,"Turcja")
+print(kraj)
+
+kraj.append(input("podaj nowy kraj... "))
+print(kraj)
+
+kraj.remove("Norwegia")
+print(kraj)
+print("Laos" in kraj)
