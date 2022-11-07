@@ -31,3 +31,25 @@ rasa = ["pitbull","york","spaniel"]
 
 rasa = rasa + pies
 print(rasa)
+
+litery = ['a','b','c','d','e','f','g','h']
+
+print('przed zmianą',litery)
+
+litery[2:7] = [99,23,58]
+
+print('po zmianie',litery)
+
+litery_m = litery
+litery_p = list(litery)
+litery_q = litery[:]
+
+print('przed zmianą',litery)
+print('przed zmianą',litery_m)
+
+litery[:] = [1002,1004,1119,1145]
+
+print('po zmianie',litery)
+print('po zmianie',litery_m)
+print('po zmianie',litery_p)
+print('po zmianie',litery_q)
