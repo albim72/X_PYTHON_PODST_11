@@ -27,3 +27,13 @@ print(mojakrotka)
 #dopisz watość 1 na 5 pozycji.
 #pymysł -> zamień krotkę na listę  - funkcja list(), przeprowadź modyfikację ,
 # zamień z powrotem listę  na krotkę
+
+mojalista = list(mojakrotka)
+mojalista.remove(56)
+mojalista.append('abc')
+mojalista.insert(5,1)
+zm = mojalista.index("Zamość")
+mojalista[zm] = "Toruń"
+
+mojakrotka = tuple(mojalista)
+print(mojakrotka)
