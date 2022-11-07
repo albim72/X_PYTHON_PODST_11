@@ -1,0 +1,6 @@
+print("Podaj swoje imię: ")
+imie = input()
+print("Witaj, miło Cię widzieć",imie)
+print("Liczba znaków imienia:",len(imie))
+wiek = int(input("podaj swój wiek: "))
+print("Twój wiek za 10 lat:",(wiek+10))
