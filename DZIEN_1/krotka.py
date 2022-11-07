@@ -23,8 +23,7 @@ print(takiedane)
 mojakrotka = tuple(takiedane)
 print(mojakrotka)
 
-#zmodyfikuj krokę -> usuń element 56, Zamień "Zamość" na "Toruń", dopisz na końcu krotki,
+#zmodyfikuj krokę -> usuń element 56, Zamień "Zamość" na "Toruń", dopisz na końcu krotki 'abc',
 #dopisz watość 1 na 5 pozycji.
-#pymysł -> zamień krotkę na listę  - funkcja list(), przeprowadź modyfikację , 
+#pymysł -> zamień krotkę na listę  - funkcja list(), przeprowadź modyfikację ,
 # zamień z powrotem listę  na krotkę
-
