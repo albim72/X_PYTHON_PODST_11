@@ -37,3 +37,12 @@ mojalista[zm] = "Toruń"
 
 mojakrotka = tuple(mojalista)
 print(mojakrotka)
+
+samochod = 'audi','Q7',4.6,34566,2020
+marka,model,poj,przebieg,rok = samochod
+
+print(marka)
+print(model)
+print(poj)
+print(przebieg)
+print(rok)
