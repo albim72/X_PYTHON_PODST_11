@@ -53,3 +53,26 @@ print('po zmianie',litery)
 print('po zmianie',litery_m)
 print('po zmianie',litery_p)
 print('po zmianie',litery_q)
+
+kolory = ['czerwony','pomarańczowy','biały','czarny','zielony','niebieski','brązowy']
+#utwórz nową listę pozycje_parz i wstaw do niej dane z listy kolory z pozycji parzystch
+#utwórz nową listę pozycje_nieparz i wstaw do niej dane z listy kolory z pozycji nieparzystch
+
+
+pozycje_parz = kolory[::2]
+print(pozycje_parz)
+
+pozycje_nieparz = kolory[1::2]
+print(pozycje_nieparz)
+
+#print(kolory[2:6:2])
+
+w1 = "kajak"
+w2 = "pomarańcza"
+
+#wypisz parę wyraz wypisamny normalnie - wyraz wypisany odwrotnie(reverse)
+w11 = w1[::-1]
+w22 = w2[::-1]
+
+print(w1,"-",w11)
+print(w2,"-",w22)
