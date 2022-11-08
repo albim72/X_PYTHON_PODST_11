@@ -4,6 +4,8 @@ from dane import book,stany_mag
 
 from mylib.specdef.kolfunkcje import nowymagazyn,nel_dict
 
+from cls_.miasto import Miasto
+
 print(stany_mag)
 print(book)
 
@@ -20,3 +22,6 @@ bk = dict(book)
 nel_dict(bk,"lakier",True)
 
 print(bk)
+
+ms = Miasto(6,"Rzeszów","podkarpackie")
+ms.print_miasto()
