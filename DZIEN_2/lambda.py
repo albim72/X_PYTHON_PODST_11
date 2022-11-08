@@ -31,3 +31,9 @@ def warunek(x):
 
 parzysta = list(filter(warunek,nbs))
 print(parzysta)
+
+#stwórz nową listę cube, ulokuj w niej wszystkie wartości z listy nbs podniesione do potęgi 3
+# użyj funkcji map(funkcja,dane) -> funckja -> funkcja transformująca
+
+cube = list(map(lambda x:x**3,nbs))
+print(cube)
