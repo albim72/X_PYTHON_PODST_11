@@ -7,6 +7,7 @@ print(f"kolor oczu: {os1.kolor_oczu}")
 os1.print_osoba()
 print(f"wiek za 10 lat: {os1.wiekza10lat()}")
 print(f"czy osoba jest pracownikiem? ({os1.czypracownik()})")
+print(f"bmi wynosi: {os1.bmi():.2f}, opis: {os1.opis_bmi()}")
 
 print("__________________________________________________")
 
@@ -24,6 +25,7 @@ pr1.print_osoba()
 pr1.print_pracownik()
 print(f"wiek za 10 lat: {pr1.wiekza10lat()}")
 print(f"czy osoba jest pracownikiem? ({pr1.czypracownik()})")
+print(f"bmi wynosi: {pr1.bmi():.2f}, opis: {pr1.opis_bmi()}")
 
 print("__________________________________________________")
 
@@ -65,3 +67,4 @@ st3.infosport()
 
 print(f"wiek za 10 lat: {st3.wiekza10lat()}")
 print(f"czy osoba jest pracownikiem? ({st3.czypracownik()})")
+print(f"bmi wynosi: {st3.bmi():.2f}, opis: {st3.opis_bmi()}")
