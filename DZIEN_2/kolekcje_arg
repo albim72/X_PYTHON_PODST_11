@@ -1,1 +1,14 @@
+def funkcja_z_lista_args(arg1, *args):
+    print(f"pierwszy argument: {arg1}")
+    for arg in args:
+        print(f"następny argument z *args: {arg}")
 
+
+funkcja_z_lista_args('ABCD', True, False, 0, 1, 1.1, "one")
+
+
+def funkcja_ze_slow_args(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key} -> {value}")
+
+funkcja_ze_slow_args(font="Times New Roman", rozmiar="12pt", kolor="szary")
