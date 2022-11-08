@@ -51,3 +51,17 @@ print(f"czy osoba jest pracownikiem? ({st2.czypracownik()})")
 
 #stwórz instancję  klasy student st3 -> student który nie jest pracownikiem, ale jest sportowcem
 # wyświetl wszytkie dostępne informacje o tym studencie, korzystając ze stosownych metod!
+
+print("__________________________________________________")
+
+st3 = Student("Tomasz",22,180,77,564545,"Nauk Społecznych","Socjologia",3,dyscyplina="biegi ultra",
+              lata_upr=4,best_wynik="102km 19h 12min 4s")
+# st1.wynagrodzenie = 3000
+#
+# print(f"wynagrodzenie: {st1.wynagrodzenie}")
+st3.print_osoba()
+st3.print_student()
+st3.infosport()
+
+print(f"wiek za 10 lat: {st3.wiekza10lat()}")
+print(f"czy osoba jest pracownikiem? ({st3.czypracownik()})")
