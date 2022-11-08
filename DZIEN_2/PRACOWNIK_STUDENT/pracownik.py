@@ -8,7 +8,10 @@ class Pracownik(Osoba):
         self.stanowisko = stanowisko
         self.latapracy = latapracy
         self.wynagrodzenie = wynagrodzenie
-        
+
     def print_pracownik(self):
         print(f"dane pracownika -> firma: {self.firma}, stanowisko pracy: {self.stanowisko} , "
               f"lata pracy: {self.latapracy}, wynagrodzenie: {self.wynagrodzenie} zł.")
+
+    def czypracownik(self):
+        return True
