@@ -2,9 +2,13 @@ from osoba import Osoba
 from pracownik import Pracownik
 from student import Student
 
+liczba_wizyt = 0
+
+
 os1 = Osoba("Jan",45,173,101)
 print(f"kolor oczu: {os1.kolor_oczu}")
-os1.print_osoba()
+os1.liczba_wizyt = 5
+print(f"liczba wizyt w klubie: {os1.liczba_wizyt}")
 print(f"wiek za 10 lat: {os1.wiekza10lat()}")
 print(f"czy osoba jest pracownikiem? ({os1.czypracownik()})")
 print(f"bmi wynosi: {os1.bmi():.2f}, opis: {os1.opis_bmi()}")
