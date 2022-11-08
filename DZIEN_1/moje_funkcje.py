@@ -40,5 +40,23 @@ def oblicz(a,c,v):
 print(oblicz(3,2,7))
 
 
+#funkcja 4
+
+def miasta(miasto3,miasto2="Zamość",miasto1="Kraków"):
+    print(f"miasto tygodnia: {miasto1}, drugie miejsce: {miasto2}, trzecie miejsce: {miasto3}")
+
+miasta("Katowice","Kielce","Koszalin")
+miasta("Katowice","Kielce")
+miasta("Katowice")
+
+miasta("Gdańsk","Lublin","Warszawa")
+
+#wypisz ranking miast zadając pozycje: miasto1, miasto3 natomiast miasto2 pozostaw domyślne
+
+miasta("Tarnów",None,"Toruń")
+miasta("Tarnów",miasto1="Toruń")
+miasta(miasto1="Toruń",miasto3="Poznań")
+
+
 
 
