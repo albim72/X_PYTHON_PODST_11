@@ -58,5 +58,16 @@ miasta("Tarnów",miasto1="Toruń")
 miasta(miasto1="Toruń",miasto3="Poznań")
 
 
+#funckja 5
+
+def zamki(id,*zamek,kupon):
+    print(f"zamek tygodnia: {zamek[0]} cena wejścia niższa o {kupon} zł, drugie miejsce: {zamek[1]}, trzecie miejsce: {zamek[2]}")
+
+zamki(1,"Malbork","Ogrodzieniec","Czersk",kupon=20)
+zamki(2,"Janowiec","Malbork","Będzin","Ogrodzieniec","Czersk","Chojnik",kupon=5)
+
+zm = ["Malbork","Ogrodzieniec","Czersk"]
+zamki(3,zm,"x","y",kupon=6)
+
 
 
