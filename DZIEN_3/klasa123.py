@@ -54,8 +54,9 @@ class TrzeciaKlasa(DrugaKlasa, Pierwiastek, Potrojenie):
         self.d = d
 
     def print_abcdgh(self):
-        print(f"a = {self.a}, b = {self.b}, c = {self.c}, d = {self.d}, "
-              f"g = {self.g}, h = {self.h}, stała g = {self.gs}")
+        # print(f"a = {self.a}, b = {self.b}, c = {self.c}, d = {self.d}, "
+        #       f"g = {self.g}, h = {self.h}, stała g = {self.gs}")
+        return self.a, self.b, self.c, self.d, self.g, self.g, self.gs
 
     def sumuj(self):
         return self.a + self.b + self.c + self.d + self.func_gh()
@@ -73,7 +74,11 @@ print("_________ Klasa Trzecia _____________")
 tk = TrzeciaKlasa(7, 5, 3, 9, 3, 2)
 tk.print_ab()
 tk.print_abc()
-tk.print_abcdgh()
+# tk.print_abcdgh()
+wynik = tk.print_abcdgh()
+print(wynik)
+ad, bd, cd, dd, gd, hd, gsd = tk.print_abcdgh()
+print(f"a = {ad}, b = {bd}, c = {cd}, d = {dd}, g = {gd}, h = {hd}, stała g = {gsd}")
 print(f"suma wynosi: {tk.sumuj()}")
 print(Pierwiastek.pierw_z_sumy(45))
 print(tk.pierw_z_sumy(tk.sumuj()))
