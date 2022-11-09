@@ -1,6 +1,7 @@
 from prostokat import Prostokat
 from trojkat import Trojkat
 from trapez import Trapez
+from kolo import Kolo
 
 pr = Prostokat(4.6,7.8)
 print(f"pole prostokąta wynosi: {pr.policz_pole():.2f}")
@@ -15,3 +16,6 @@ print(f"pole trapezu wynosi: {trp.policz_pole():.2f}")
 #wyznacza pole koła - według wzoru -> pi*a**2
 #zmodyfiuj konstruktor
 #policz pole dla promienia wynoszącego 5.5
+
+kl = Kolo(5.5)
+print(f"pole koła wynosi: {kl.policz_pole():.2f}")
