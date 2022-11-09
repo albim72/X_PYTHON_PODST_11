@@ -6,6 +6,9 @@ import sys
 import math
 
 sys.set_int_max_str_digits(1000000)
+sys.setrecursionlimit(0x100000)
+
+print(sys.getrecursionlimit())
 
 def silnia(n):
     if n<0:
@@ -26,6 +29,7 @@ def silnia_rekurencyjna(n):
 try:
     n = int(input("podaj argument n funckji silnia: "))
     print(f"silnia z n = {n} wynosi {silnia(n)}")
-    print(f"silnia (math.factorial) z n = {n} wynosi {math.factorial(n)}")
+    #print(f"silnia (math.factorial) z n = {n} wynosi {math.factorial(n)}")
+    print(f"silnia rekurencyjna z n = {n} wynosi {silnia_rekurencyjna(n)}")
 except ValueError as bl:
     print(bl)
