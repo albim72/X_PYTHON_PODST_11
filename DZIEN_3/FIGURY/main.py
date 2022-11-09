@@ -10,3 +10,8 @@ print(f"pole trójkąta wynosi: {tr.policz_pole():.2f}")
 
 trp = Trapez(6.8,5.1,4.6)
 print(f"pole trapezu wynosi: {trp.policz_pole():.2f}")
+
+#Utwórz nowy moduł kolo.py a w nim stwórz klasę Kolo(Figura)
+#wyznacza pole koła - według wzoru -> pi*a**2
+#zmodyfiuj konstruktor
+#policz pole dla promienia wynoszącego 5.5
