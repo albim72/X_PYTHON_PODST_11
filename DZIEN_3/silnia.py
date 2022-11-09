@@ -15,6 +15,14 @@ def silnia(n):
         wynik *= i
     return wynik
 
+def silnia_rekurencyjna(n):
+    if n<0:
+        raise ValueError("funkcja silnia jest niezdefiniowana dla liczb ujemnych!")
+    if n==0:
+        return 1
+    else:
+        return n*silnia_rekurencyjna(n-1)
+
 try:
     n = int(input("podaj argument n funckji silnia: "))
     print(f"silnia z n = {n} wynosi {silnia(n)}")
