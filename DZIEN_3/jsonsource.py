@@ -34,3 +34,26 @@ with open("jsonauto.json","r",encoding="utf-8") as f:
 
 print("**************************************")
 
+with open("org.json","r",encoding="utf-8") as f:
+    org_dict = json.load(f)
+
+print(org_dict)
+
+
+extra = {
+    "id_proj":345345,
+    "tematyka":"sztuczna inteligencja",
+    "temat":"nowoczesne systemy rekomendacji"
+}
+
+org_dict.update(extra)
+
+j_org = json.dumps(org_dict,indent=4)
+print(org_dict)
+
+
+
+with open("org_ex.json","w",encoding="utf-8") as f:
+    f.write(j_org)
+
+
